@@ -1,0 +1,35 @@
+{
+  "name": "apoelz1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
+    "axios": "^1.9.0",
+    "libphonenumber-js": "^1.12.8",
+    "lucide-react": "^0.510.0",
+    "moment": "^2.30.1",
+    "next": "^15.5.7",
+    "react": "^19.1.2",
+    "react-cool-onclickoutside": "^1.7.0",
+    "react-dom": "^19.1.2",
+    "react-icons": "^5.5.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-select": "^5.10.1",
+    "react-toastify": "^11.1.0",
+    "use-places-autocomplete": "^4.0.1",
+    "world-countries": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "tailwindcss": "^4"
+  }
+}

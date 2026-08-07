@@ -1,0 +1,160 @@
+  <div className="lg:col-span-2 space-y-10">
+            {/* Planning and Development Section */}
+            <section>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">
+                Planning and Development
+              </h1>
+              <p className="text-gray-300 mb-6">
+                The planning and development of this Estate began several years
+                ago, with a team of experts working tirelessly to bring this
+                vision to life. From the initial concept to the final
+                construction, every detail was carefully considered to ensure
+                that the Grand Estate would be a truly exceptional community.
+              </p>
+
+              {/* Map Section */}
+              <div className="relative h-64 md:h-80 w-full rounded-lg overflow-hidden mb-8">
+                <Image
+                  src="/images/map.png"
+                  alt="Property location map"
+                  fill
+                  className="object-cover"
+                />
+                <button className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  text-white px-4 py-2 rounded-full flex items-center gap-2 hover:bg-black/90 transition">
+                  <MapPin size={18} />
+                  <span>See on map</span>
+                </button>
+              </div>
+            </section>
+
+            {/* Design and Architecture Section */}
+            <section>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                Design and Architecture
+              </h2>
+              <p className="text-gray-300 mb-6">
+                The Grand Estate's design and architecture were inspired by the
+                finest luxury estates around the world. Each home was designed
+                to be a masterpiece of modern design, with clean lines, sleek
+                surfaces, and an emphasis on natural light and ventilation.
+              </p>
+
+              {/* Interior Images */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 h-48 md:h-64">
+                {blogDetails?.images?.map((image, ind) => {
+                  return (
+                    <div
+                      key={ind}
+                      className="relative overflow-hidden rounded-l-lg"
+                    >
+                      <Image
+                        src={image?.img_url}
+                        alt={image?.img_alt}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+            <section className="mb-10">
+              <h1 className="text-3xl md:text-4xl font-bold mb-6">
+                EMAAR Properties
+              </h1>
+
+              <p className="text-gray-300 mb-4">
+                EMAAR Properties is one of the UAE's most prominent real estate
+                developers, renowned for shaping iconic skylines and creating
+                master-planned communities. With decades of experience, EMAAR
+                delivers luxury, innovation, and long-term value in every
+                project.
+              </p>
+
+              <p className="text-gray-300 mb-4">
+                The company specializes in master-planned residential
+                communities, high-rise luxury towers, commercial developments,
+                and mixed-use projects that combine comfort with functionality.
+                EMAAR is celebrated for creating some of Dubai's most
+                prestigious landmarks, including Downtown Dubai, the Dubai
+                Marina Towers, and the serene villa enclave of Arabian Ranches.
+              </p>
+
+              <p className="text-gray-300">
+                Renowned for delivering projects on time with enduring value,
+                EMAAR has earned the trust of homeowners and global investors
+                alike. Each project is designed with lifestyle in mind, offering
+                premium amenities, strategic locations, and an uncompromising
+                standard of quality. Choosing EMAAR means investing in
+                excellence, innovation, and a future-ready community.
+              </p>
+            </section>
+
+            {/* Community Section */}
+            <section className="mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold mb-6">Community</h2>
+
+              <p className="text-gray-300 mb-6">
+                The Grand Estate is more than just a collection of homes - it's
+                a community. Residents can enjoy a range of community amenities,
+                including:
+              </p>
+
+              <ul className="space-y-4 mb-8">
+                <li className="flex items-start">
+                  <span className="text-white mr-2">•</span>
+                  <p className="text-gray-300">
+                    <span className="font-semibold">Community center:</span> A
+                    state-of-the-art community center with a fully equipped
+                    kitchen, perfect for hosting events and gatherings.
+                  </p>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="text-white mr-2">•</span>
+                  <p className="text-gray-300">
+                    <span className="font-semibold">
+                      Parks and green spaces:
+                    </span>{" "}
+                    Lush parks and green spaces throughout the community,
+                    providing a peaceful retreat from the hustle and bustle of
+                    city life.
+                  </p>
+                </li>
+
+                <li className="flex items-start">
+                  <span className="text-white mr-2">•</span>
+                  <p className="text-gray-300">
+                    <span className="font-semibold">Walking trails:</span>{" "}
+                    Walking trails that wind through the community, providing a
+                    scenic and peaceful way to enjoy the outdoors.
+                  </p>
+                </li>
+              </ul>
+
+              {/* Community Center Image */}
+              <div className="relative h-64 md:h-80 lg:h-96 w-full rounded-lg overflow-hidden">
+                <Image
+                  src="/images/community.png"
+                  alt="Luxury community center with green furniture and large windows"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </section>
+
+            {/* Conclusion Section */}
+            <section className="mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold mb-6">
+                Conclusion
+              </h2>
+
+              <p className="text-gray-300">
+                The Grand Estate is a truly exceptional community, offering
+                residents a luxurious living experience like no other. With its
+                stunning design, luxurious amenities, and private outdoor
+                spaces, this master-planned community by EMAAR is designed to
+                deliver the very best.
+              </p>
+            </section>
+          </div>
