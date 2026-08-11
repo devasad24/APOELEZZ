@@ -67,7 +67,7 @@ export default function Login() {
           <Image
             src="/assests/new-Logo.png"
             alt="logo"
-            width={150}
+            width={180}
             height={0} // Temporary placeholder, not needed with layout="intrinsic"
             layout="intrinsic"
           />

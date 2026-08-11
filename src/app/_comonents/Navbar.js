@@ -28,7 +28,7 @@
 //   return (
 //     <div className="flex items-center justify-center mt-4 absolute top-4 left-0 right-0 z-10 w-ful">
 //       <div className="border-primary  flex gap-8 px-3.5 items-center  rounded-[14px] text-[#FFFFFF99]">
-//         <Image src="/assests/new-Logo.png" width={"70"} height={70} alt="logo" />
+//         <Image src="/assests/new-Logo.png" width={"85"} height={85} alt="logo" />
 //         {links?.map((link, ind) => {
 //           return (
 //             <Link key={ind} href={link?.link}>
@@ -142,10 +142,10 @@ const Navbar = ({ links }) => {
           <Link href="/" className="flex items-center">
             <Image
               src="/assests/new-Logo.png"
-              width={70}
-              height={70}
+              width={85}
+              height={85}
               alt="logo"
-              className="md:w-[70px] lg:w-[100px] w-[70px] h-auto"
+              className="md:w-[85px] lg:w-[120px] w-[85px] h-auto"
               // className="w-[50px] h-auto md:w-[70px]"
             />
           </Link>

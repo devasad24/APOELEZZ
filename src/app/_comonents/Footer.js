@@ -106,8 +106,8 @@ const Footer = ({ links }) => {
               <Image
                 src="/assests/new-Logo.png"
                 alt="Logo"
-                width={150}
-                height={150}
+                width={180}
+                height={180}
                 className="object-contain"
               />
               <p className="text-white font-light text-sm text-wrap">

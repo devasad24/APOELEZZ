@@ -72,8 +72,8 @@ export default function AdminSidebar() {
                     <Image
                         src="/assests/new-Logo.png"
                         alt="logo"
-                        className="w-[160px] mx-auto p-5 z-2"
-                        width={100}
+                        className="w-[190px] mx-auto p-5 z-2"
+                        width={120}
                         height={0}
                         layout="intrinsic"
                     />
