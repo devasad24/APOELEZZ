@@ -37,7 +37,7 @@ const contacts = [
   },
   {
     icon: <MdLocationPin className="h-5 w-5" />,
-    text: "Office 2105, Single Business Tower Business Bay, Dubai, UAE",
+    text: "Indigo Central 8 - Office 6R, Sheikh Zayed Rd - Al Manara - Dubai",
     type: "location",
   },
 ];
