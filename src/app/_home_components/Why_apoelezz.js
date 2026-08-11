@@ -54,7 +54,7 @@ const Why_apoelezz = () => {
           </div>
           <div className="w-full h-full flex items-center justify-center order-1 md:order-0 px-5">
             <Image
-              src="/images/awards.png"
+              src="/images/awards.jpeg"
               alt="Icon"
               // fill={true}
               width={579}
