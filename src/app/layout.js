@@ -20,7 +20,7 @@ export const metadata = {
   description:
     "Elevating the real estate experience with refined service, trusted partnerships, and a vision for excellence.",
   icons: {
-    icon: "/images/logo.png",
+    icon: "/assests/new-Logo.png",
   },
 };
 
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="http://localhost:3000/images/logo.png" />
+        <link rel="icon" href="/assests/new-Logo.png" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black relative`}

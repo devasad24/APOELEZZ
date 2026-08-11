@@ -70,7 +70,7 @@ export default function AdminSidebar() {
                     }}></div>
                 <div className="z-2 flex flex-col gap-5 text-black">
                     <Image
-                        src="/images/logo.png"
+                        src="/assests/new-Logo.png"
                         alt="logo"
                         className="w-[160px] mx-auto p-5 z-2"
                         width={100}

@@ -34,7 +34,7 @@ import {
 import HeadingTitle from "@/app/admin/_components/HeadingTitle";
 import useApi from "@/utils/useApi";
 import { buildImageUrl } from "@/utils/imageUrl";
-const static_img = "/images/logo.png";
+const static_img = "/assests/new-Logo.png";
 const IMG_BASE_URL = process.env.NEXT_PUBLIC_IMG_BASE_URL;
 
 export default function Developers() {

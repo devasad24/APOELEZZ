@@ -65,7 +65,7 @@ export default function Login() {
         {/* <div className="h-[50px]"></div> */}
         <div className="flex flex-col justify-center items-center gap-4 text-white">
           <Image
-            src="/images/logo.png"
+            src="/assests/new-Logo.png"
             alt="logo"
             width={150}
             height={0} // Temporary placeholder, not needed with layout="intrinsic"

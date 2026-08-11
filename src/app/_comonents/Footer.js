@@ -104,7 +104,7 @@ const Footer = ({ links }) => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
             <div className="col-span-1 md:col-span-2 w-full flex flex-col gap-4 items-center md:items-start">
               <Image
-                src="/images/logo.png"
+                src="/assests/new-Logo.png"
                 alt="Logo"
                 width={150}
                 height={150}
